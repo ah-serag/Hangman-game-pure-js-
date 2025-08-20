@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css linK -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- /game-Info/ -->
+      <div class="game-info">
+        <div class="game-name">Hangman</div>
+        <div class="game-categoery">catagoery: <span>css</span></div>
+      </div>
+      <!-- /game/ -->
+      <div class="game">
+        <div class="Div-draw">
+          <div class="draw">
+            <div class="branch"></div>
+            <div class="the-man">
+              <div class="head"></div>
+              <div class="body"></div>
+              <div class="hands"></div>
+              <div class="legs"></div>
+            </div>
+          </div>
+        </div>
+        <!-- letters  -->
+        <div class="letters">
+          <h1 class=""></h1>
+          <div class="Div-letters"></div>
+        </div>
+      </div>
+      <div class="spaceWord"></div>
+<!-- whhen lose  -->
+<div class="wrongDiv" style="display:none;">
+<h1 style="color: rgb(255, 255, 255);">wrong</h1>
+<h3>the right word is  </h3>
+ <h4 class="rightWord"></h4>
+<button class="btnFinish">OK</button>
+
+</div>
+
+<!-- when win  -->
+<div class="WinDiv" style="display: none;" >
+  <h1 style="color: rgb(3, 160, 172);">Win</h1>
+  <h3>the wrong is <span class="NumWrong"></span></h3>
+  <button class="btnFinish">OK</button>
+  
+  </div>
+
+
+
+</div>
+
+    </div>
+
+    <!-- link javaScript   -->
+    <script src="hangMan.js"></script>
+  </body>
+</html>
